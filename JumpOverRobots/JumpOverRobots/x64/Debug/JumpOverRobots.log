@@ -1,0 +1,6 @@
+﻿  JumpOverRobots.cpp
+c:\users\tech\desktop\jump-over-robots-master\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(143): warning C4101: 'hdc': unreferenced local variable
+c:\users\tech\desktop\jump-over-robots-master\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(142): warning C4101: 'ps': unreferenced local variable
+c:\users\tech\desktop\jump-over-robots-master\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(141): warning C4101: 'wmid': unreferenced local variable
+c:\users\tech\desktop\jump-over-robots-master\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(141): warning C4101: 'wnEvent': unreferenced local variable
+  JumpOverRobots.vcxproj -> C:\Users\Tech\Desktop\Jump-Over-Robots-master\JumpOverRobots\x64\Debug\JumpOverRobots.exe
