@@ -1,4 +1,24 @@
 ﻿  JumpOverRobots.cpp
 c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\cpuspeed.h(7): warning C4101: 'Buffer': unreferenced local variable
 c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(46): warning C4551: function call missing argument list
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(204): warning C4477: 'swprintf_s' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'WPARAM'
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(204): note: consider using '%llx' in the format string
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(204): note: consider using '%Ix' in the format string
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(204): note: consider using '%I64x' in the format string
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(216): warning C4477: 'swprintf_s' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'WPARAM'
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(216): note: consider using '%llx' in the format string
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(216): note: consider using '%Ix' in the format string
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(216): note: consider using '%I64x' in the format string
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(222): warning C4477: 'swprintf_s' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'WPARAM'
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(222): note: consider using '%llx' in the format string
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(222): note: consider using '%Ix' in the format string
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(222): note: consider using '%I64x' in the format string
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(228): warning C4477: 'swprintf_s' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'WPARAM'
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(228): note: consider using '%llx' in the format string
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(228): note: consider using '%Ix' in the format string
+  c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(228): note: consider using '%I64x' in the format string
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(170): warning C4101: 'waCoord': unreferenced local variable
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(179): warning C4101: 'waCoord': unreferenced local variable
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(188): warning C4101: 'waCoord': unreferenced local variable
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(197): warning C4101: 'waCoord': unreferenced local variable
   JumpOverRobots.vcxproj -> C:\Users\mehol\Documents\GitHub\Jump-Over-Robots\JumpOverRobots\x64\Debug\JumpOverRobots.exe
