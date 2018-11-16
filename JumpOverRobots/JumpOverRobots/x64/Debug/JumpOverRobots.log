@@ -1,0 +1,4 @@
+﻿  JumpOverRobots.cpp
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\cpuspeed.h(7): warning C4101: 'Buffer': unreferenced local variable
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(46): warning C4551: function call missing argument list
+  JumpOverRobots.vcxproj -> C:\Users\mehol\Documents\GitHub\Jump-Over-Robots\JumpOverRobots\x64\Debug\JumpOverRobots.exe
