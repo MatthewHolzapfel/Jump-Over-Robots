@@ -149,6 +149,9 @@
   <ItemGroup>
     <ClInclude Include="CPUCheck.h" />
     <ClInclude Include="CPUSpeed.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="EventManagerImpl.h" />
+    <ClInclude Include="Events.h" />
     <ClInclude Include="Memory.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SingleInstance.h" />
@@ -157,6 +160,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="EventManagerImpl.cpp" />
+    <ClCompile Include="Events.cpp" />
     <ClCompile Include="JumpOverRobots.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
