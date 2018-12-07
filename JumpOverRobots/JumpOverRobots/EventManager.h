@@ -39,9 +39,6 @@
 //========================================================================
 
 #include <strstream>
-#include "..\\Multicore\\CriticalSection.h"
-#include "../3rdParty/FastDelegate/FastDelegate.h"
-#include "../Debugging/MemoryWatcher.h"
 
 
 //---------------------------------------------------------------------------------------------------------------------
@@ -53,15 +50,6 @@ typedef unsigned long EventType;
 typedef shared_ptr<IEventData> IEventDataPtr;
 typedef fastdelegate::FastDelegate1<IEventDataPtr> EventListenerDelegate;
 typedef concurrent_queue<IEventDataPtr> ThreadSafeEventQueue;
-
-
-//---------------------------------------------------------------------------------------------------------------------
-// Macro for event registration
-//---------------------------------------------------------------------------------------------------------------------
-extern GenericObjectFactory<IEventData, EventType> g_eventFactory;
-#define REGISTER_EVENT(eventClass) g_eventFactory.Register<eventClass>(eventClass::sk_EventType)
-#define CREATE_EVENT(eventType) g_eventFactory.Create(eventType)
-
 
 //---------------------------------------------------------------------------------------------------------------------
 // IEventData                               - Chapter 11, page 310
