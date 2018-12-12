@@ -72,7 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>C:\Users\mehol\Desktop\LuaPackage\LuaPackage\luaforwindows-master\files\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)\LuaFiles\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\LuaFiles\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -99,6 +100,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lua5.1.lib;lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -154,6 +156,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\LuaFiles\include\lauxlib.h" />
+    <ClInclude Include="..\LuaFiles\include\lua.h" />
+    <ClInclude Include="..\LuaFiles\include\lua.hpp" />
+    <ClInclude Include="..\LuaFiles\include\luaconf.h" />
+    <ClInclude Include="..\LuaFiles\include\lualib.h" />
     <ClInclude Include="CPUCheck.h" />
     <ClInclude Include="CPUSpeed.h" />
     <ClInclude Include="Memory.h" />
@@ -178,6 +185,16 @@
   <ItemGroup>
     <Image Include="JumpOverRobots.ico" />
     <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lua5.1.dll" />
+    <None Include="..\lua51.dll" />
+    <None Include="..\LuaFiles\lib\lua5.1.dll" />
+    <None Include="..\LuaFiles\lib\lua51.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\LuaFiles\lib\lua5.1.lib" />
+    <Library Include="..\LuaFiles\lib\lua51.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

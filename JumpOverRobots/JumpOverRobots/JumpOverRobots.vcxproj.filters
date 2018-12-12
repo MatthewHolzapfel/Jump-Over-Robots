@@ -39,6 +39,21 @@
     <ClInclude Include="StorageCheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\LuaFiles\include\lauxlib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaFiles\include\lua.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaFiles\include\lua.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaFiles\include\luaconf.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaFiles\include\lualib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JumpOverRobots.cpp">
@@ -60,5 +75,27 @@
     <Image Include="JumpOverRobots.ico">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LuaFiles\lib\lua5.1.dll">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\LuaFiles\lib\lua51.dll">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\lua5.1.dll">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\lua51.dll">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\LuaFiles\lib\lua5.1.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="..\LuaFiles\lib\lua51.lib">
+      <Filter>Source Files</Filter>
+    </Library>
   </ItemGroup>
 </Project>
