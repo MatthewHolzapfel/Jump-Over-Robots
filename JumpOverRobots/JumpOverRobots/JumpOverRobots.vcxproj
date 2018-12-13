@@ -191,10 +191,14 @@
     <None Include="..\lua51.dll" />
     <None Include="..\LuaFiles\lib\lua5.1.dll" />
     <None Include="..\LuaFiles\lib\lua51.dll" />
+    <None Include="..\test.lua" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\LuaFiles\lib\lua5.1.lib" />
     <Library Include="..\LuaFiles\lib\lua51.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\text.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

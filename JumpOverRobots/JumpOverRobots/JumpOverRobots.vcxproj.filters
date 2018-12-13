@@ -89,6 +89,9 @@
     <None Include="..\lua51.dll">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="..\test.lua">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\LuaFiles\lib\lua5.1.lib">
@@ -97,5 +100,10 @@
     <Library Include="..\LuaFiles\lib\lua51.lib">
       <Filter>Source Files</Filter>
     </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\text.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

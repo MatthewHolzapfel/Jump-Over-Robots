@@ -1,1 +1,9 @@
-﻿  JumpOverRobots.vcxproj -> C:\Users\mehol\Documents\GitHub\Jump-Over-Robots\JumpOverRobots\Debug\JumpOverRobots.exe
+﻿  JumpOverRobots.cpp
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\cpuspeed.h(7): warning C4101: 'Buffer': unreferenced local variable
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(48): warning C4551: function call missing argument list
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(220): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'int'
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(180): warning C4101: 'waCoord': unreferenced local variable
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(189): warning C4101: 'waCoord': unreferenced local variable
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(198): warning C4101: 'waCoord': unreferenced local variable
+c:\users\mehol\documents\github\jump-over-robots\jumpoverrobots\jumpoverrobots\jumpoverrobots.cpp(207): warning C4101: 'waCoord': unreferenced local variable
+  JumpOverRobots.vcxproj -> C:\Users\mehol\Documents\GitHub\Jump-Over-Robots\JumpOverRobots\Debug\JumpOverRobots.exe
