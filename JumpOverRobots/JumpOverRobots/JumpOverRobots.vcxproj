@@ -96,11 +96,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>lua5.1.lib;lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML-2.5.1\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -128,12 +130,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -163,6 +168,7 @@
     <ClInclude Include="..\LuaFiles\include\lualib.h" />
     <ClInclude Include="CPUCheck.h" />
     <ClInclude Include="CPUSpeed.h" />
+    <ClInclude Include="InputDebug.h" />
     <ClInclude Include="Memory.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SingleInstance.h" />
@@ -191,6 +197,17 @@
     <None Include="..\lua51.dll" />
     <None Include="..\LuaFiles\lib\lua5.1.dll" />
     <None Include="..\LuaFiles\lib\lua51.dll" />
+    <None Include="..\SFML-2.5.1\bin\openal32.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-audio-2.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-audio-d-2.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-graphics-2.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-graphics-d-2.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-network-2.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-network-d-2.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-system-2.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-system-d-2.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-window-2.dll" />
+    <None Include="..\SFML-2.5.1\bin\sfml-window-d-2.dll" />
     <None Include="..\test.lua" />
   </ItemGroup>
   <ItemGroup>
